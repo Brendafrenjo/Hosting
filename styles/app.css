@@ -14,20 +14,14 @@ h1 {
 img {
   display: block;
   margin: 0 auto;
-  width: 300px;
+  max-width: 90%;
   border-radius: 10px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
-p {
-  text-align: center;
-}
-
-li {
-  text-align: center;
-}
-
-ol {
-  list-style-type: none;
+.container {
+  padding-top: 30px;
 }
 
 .list {
@@ -39,4 +33,9 @@ ol {
   cursor: pointer;
   text-decoration: underline;
   color: blue;
+}
+
+#apply-btn {
+  display: block;
+  margin: 0 auto;
 }
